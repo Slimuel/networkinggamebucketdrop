@@ -5,7 +5,7 @@ import time
 
 def client_program():
     print("trying to connect to server")
-    host = "10.9.72.29"
+    host = "10.0.0.0" # change to ip address of device running GameServer.py
     port = 5000  # socket server port number
 
     client_socket = socket.socket()  # instantiate
